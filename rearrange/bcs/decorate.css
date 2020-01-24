@@ -1,0 +1,330 @@
+.container{
+	width:95%;
+	
+	background:#2d2a45;
+	margin-left: 35px;
+
+}
+
+/*navigation bar*/
+
+.navbar {
+  overflow: hidden;
+  background-color: #006987;
+  font-family: Arial;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.jobs {
+  float: left;
+  overflow: hidden;
+}
+
+
+.jobs .jobsbt {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .jobs:hover .jobsbt  {
+  background-color: red;
+}
+
+
+.jobs-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.jobs-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.jobs-content a:hover {
+  background-color: #ddd;
+}
+
+
+.jobs:hover .jobs-content {
+  display: block;
+}
+
+
+.question {
+  float: left;
+  overflow: hidden;
+}
+
+
+.question .questionbt {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .question:hover .questionbt  {
+  background-color: red;
+}
+
+
+.question-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.question-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.question-content a:hover {
+  background-color: #ddd;
+}
+
+
+.question:hover .question-content {
+  display: block;
+}
+
+
+
+
+
+/* search  */
+
+.search{
+	margin-top:20px; 
+}
+* {
+  box-sizing: border-box;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+  margin-left: 50px;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/*  details  */
+
+.description{
+	background-color: #006987;
+	margin-top: 20px;
+}
+
+
+
+/* Fake image */
+.fakeimg {
+  
+}
+
+/* Add a card effect for articles */
+.column {
+  float: left;
+  width: 25%;
+
+  background-color: "white";
+  
+ margin-left: 5%
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card {
+  background-color: white;
+ padding-top: 20px;
+ padding-right: 10px;
+ padding-left: 10px;
+  
+  margin-top: 20px;
+ 
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+
+
+
+
+  
+
+
+
+
+
+.card1 {
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 20px;
+  height: 100%
+}
+
+.card2 {
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.card3 {
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 20px;
+  height: 100%
+}
+
+.fakeimg {
+	 display: block;
+   text-align: justify;
+   margin: 0 auto;
+
+
+}
+
+
+
+
+/* foot  */
+
+.foot{
+	
+	height:85px;
+	background-color: #006987;
+
+}
+
+.c1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin-left: 70px;
+}
+
+
+.para p{
+	color: white;
+}
+
+.c1 p{
+	color: white;
+}
+
+
+
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #006987; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
